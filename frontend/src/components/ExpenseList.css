@@ -1,0 +1,19 @@
+.expense-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.expense-list-empty {
+  text-align: center;
+  padding: 3rem;
+  color: #6b7280;
+  background: white;
+  border-radius: 0.5rem;
+  border: 1px dashed #d1d5db;
+}
+
+.expense-list-empty p {
+  margin: 0;
+  font-size: 1.125rem;
+}
+
